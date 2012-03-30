@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CBB602E1525389600D52A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB602D1525389600D52A58 /* UIKit.framework */; };
+		4CBB60301525389600D52A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB602F1525389600D52A58 /* Foundation.framework */; };
+		4CBB60321525389600D52A58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB60311525389600D52A58 /* CoreGraphics.framework */; };
+		4CBB60381525389700D52A58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB60361525389700D52A58 /* InfoPlist.strings */; };
+		4CBB603A1525389700D52A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB60391525389700D52A58 /* main.m */; };
+		4CBB603E1525389700D52A58 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB603D1525389700D52A58 /* CCAppDelegate.m */; };
+		4CBB60411525389700D52A58 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB60401525389700D52A58 /* CCViewController.m */; };
+		4CBB60441525389700D52A58 /* CCViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB60421525389700D52A58 /* CCViewController_iPhone.xib */; };
+		4CBB60471525389700D52A58 /* CCViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB60451525389700D52A58 /* CCViewController_iPad.xib */; };
+		4CBB604F1525389700D52A58 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB604E1525389700D52A58 /* SenTestingKit.framework */; };
+		4CBB60501525389700D52A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB602D1525389600D52A58 /* UIKit.framework */; };
+		4CBB60511525389700D52A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB602F1525389600D52A58 /* Foundation.framework */; };
+		4CBB60591525389700D52A58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB60571525389700D52A58 /* InfoPlist.strings */; };
+		4CBB605C1525389700D52A58 /* Clue_CeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB605B1525389700D52A58 /* Clue_CeeperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CBB60521525389700D52A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBB60201525389600D52A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBB60281525389600D52A58;
+			remoteInfo = "Clue Ceeper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CBB60291525389600D52A58 /* Clue Ceeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clue Ceeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBB602D1525389600D52A58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CBB602F1525389600D52A58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CBB60311525389600D52A58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CBB60351525389700D52A58 /* Clue Ceeper-Info.plist */ = {isa = PBXFileReference; path = "Clue Ceeper-Info.plist"; sourceTree = "<group>"; };
+		4CBB60371525389700D52A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CBB60391525389700D52A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CBB603B1525389700D52A58 /* Clue Ceeper-Prefix.pch */ = {isa = PBXFileReference; path = "Clue Ceeper-Prefix.pch"; sourceTree = "<group>"; };
+		4CBB603C1525389700D52A58 /* CCAppDelegate.h */ = {isa = PBXFileReference; path = CCAppDelegate.h; sourceTree = "<group>"; };
+		4CBB603D1525389700D52A58 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
+		4CBB603F1525389700D52A58 /* CCViewController.h */ = {isa = PBXFileReference; path = CCViewController.h; sourceTree = "<group>"; };
+		4CBB60401525389700D52A58 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		4CBB60431525389700D52A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController_iPhone.xib; sourceTree = "<group>"; };
+		4CBB60461525389700D52A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController_iPad.xib; sourceTree = "<group>"; };
+		4CBB604D1525389700D52A58 /* Clue CeeperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clue CeeperTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBB604E1525389700D52A58 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4CBB60561525389700D52A58 /* Clue CeeperTests-Info.plist */ = {isa = PBXFileReference; path = "Clue CeeperTests-Info.plist"; sourceTree = "<group>"; };
+		4CBB60581525389700D52A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CBB605A1525389700D52A58 /* Clue_CeeperTests.h */ = {isa = PBXFileReference; path = Clue_CeeperTests.h; sourceTree = "<group>"; };
+		4CBB605B1525389700D52A58 /* Clue_CeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clue_CeeperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBB60261525389600D52A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB602E1525389600D52A58 /* UIKit.framework in Frameworks */,
+				4CBB60301525389600D52A58 /* Foundation.framework in Frameworks */,
+				4CBB60321525389600D52A58 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBB60491525389700D52A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB604F1525389700D52A58 /* SenTestingKit.framework in Frameworks */,
+				4CBB60501525389700D52A58 /* UIKit.framework in Frameworks */,
+				4CBB60511525389700D52A58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBB601E1525389600D52A58 = {
+			isa = PBXGroup;
+			children = (
+				4CBB60331525389600D52A58 /* Clue Ceeper */,
+				4CBB60541525389700D52A58 /* Clue CeeperTests */,
+				4CBB602C1525389600D52A58 /* Frameworks */,
+				4CBB602A1525389600D52A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBB602A1525389600D52A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB60291525389600D52A58 /* Clue Ceeper.app */,
+				4CBB604D1525389700D52A58 /* Clue CeeperTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBB602C1525389600D52A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB602D1525389600D52A58 /* UIKit.framework */,
+				4CBB602F1525389600D52A58 /* Foundation.framework */,
+				4CBB60311525389600D52A58 /* CoreGraphics.framework */,
+				4CBB604E1525389700D52A58 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CBB60331525389600D52A58 /* Clue Ceeper */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB603C1525389700D52A58 /* CCAppDelegate.h */,
+				4CBB603D1525389700D52A58 /* CCAppDelegate.m */,
+				4CBB603F1525389700D52A58 /* CCViewController.h */,
+				4CBB60401525389700D52A58 /* CCViewController.m */,
+				4CBB60421525389700D52A58 /* CCViewController_iPhone.xib */,
+				4CBB60451525389700D52A58 /* CCViewController_iPad.xib */,
+				4CBB60341525389700D52A58 /* Supporting Files */,
+			);
+			path = "Clue Ceeper";
+			sourceTree = "<group>";
+		};
+		4CBB60341525389700D52A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB60351525389700D52A58 /* Clue Ceeper-Info.plist */,
+				4CBB60361525389700D52A58 /* InfoPlist.strings */,
+				4CBB60391525389700D52A58 /* main.m */,
+				4CBB603B1525389700D52A58 /* Clue Ceeper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBB60541525389700D52A58 /* Clue CeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB605A1525389700D52A58 /* Clue_CeeperTests.h */,
+				4CBB605B1525389700D52A58 /* Clue_CeeperTests.m */,
+				4CBB60551525389700D52A58 /* Supporting Files */,
+			);
+			path = "Clue CeeperTests";
+			sourceTree = "<group>";
+		};
+		4CBB60551525389700D52A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB60561525389700D52A58 /* Clue CeeperTests-Info.plist */,
+				4CBB60571525389700D52A58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBB60281525389600D52A58 /* Clue Ceeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBB605F1525389700D52A58 /* Build configuration list for PBXNativeTarget "Clue Ceeper" */;
+			buildPhases = (
+				4CBB60251525389600D52A58 /* Sources */,
+				4CBB60261525389600D52A58 /* Frameworks */,
+				4CBB60271525389600D52A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clue Ceeper";
+			productName = "Clue Ceeper";
+			productReference = 4CBB60291525389600D52A58 /* Clue Ceeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CBB604C1525389700D52A58 /* Clue CeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBB60621525389700D52A58 /* Build configuration list for PBXNativeTarget "Clue CeeperTests" */;
+			buildPhases = (
+				4CBB60481525389700D52A58 /* Sources */,
+				4CBB60491525389700D52A58 /* Frameworks */,
+				4CBB604A1525389700D52A58 /* Resources */,
+				4CBB604B1525389700D52A58 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBB60531525389700D52A58 /* PBXTargetDependency */,
+			);
+			name = "Clue CeeperTests";
+			productName = "Clue CeeperTests";
+			productReference = 4CBB604D1525389700D52A58 /* Clue CeeperTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBB60201525389600D52A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4CBB60231525389600D52A58 /* Build configuration list for PBXProject "Clue Ceeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CBB601E1525389600D52A58;
+			productRefGroup = 4CBB602A1525389600D52A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBB60281525389600D52A58 /* Clue Ceeper */,
+				4CBB604C1525389700D52A58 /* Clue CeeperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBB60271525389600D52A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB60381525389700D52A58 /* InfoPlist.strings in Resources */,
+				4CBB60441525389700D52A58 /* CCViewController_iPhone.xib in Resources */,
+				4CBB60471525389700D52A58 /* CCViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBB604A1525389700D52A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB60591525389700D52A58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CBB604B1525389700D52A58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBB60251525389600D52A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB603A1525389700D52A58 /* main.m in Sources */,
+				4CBB603E1525389700D52A58 /* CCAppDelegate.m in Sources */,
+				4CBB60411525389700D52A58 /* CCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBB60481525389700D52A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB605C1525389700D52A58 /* Clue_CeeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CBB60531525389700D52A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBB60281525389600D52A58 /* Clue Ceeper */;
+			targetProxy = 4CBB60521525389700D52A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CBB60361525389700D52A58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBB60371525389700D52A58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CBB60421525389700D52A58 /* CCViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBB60431525389700D52A58 /* en */,
+			);
+			name = CCViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4CBB60451525389700D52A58 /* CCViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBB60461525389700D52A58 /* en */,
+			);
+			name = CCViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		4CBB60571525389700D52A58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBB60581525389700D52A58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CBB605D1525389700D52A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CBB605E1525389700D52A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBB60601525389700D52A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clue Ceeper/Clue Ceeper-Prefix.pch";
+				INFOPLIST_FILE = "Clue Ceeper/Clue Ceeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CBB60611525389700D52A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clue Ceeper/Clue Ceeper-Prefix.pch";
+				INFOPLIST_FILE = "Clue Ceeper/Clue Ceeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4CBB60631525389700D52A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clue Ceeper.app/Clue Ceeper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clue Ceeper/Clue Ceeper-Prefix.pch";
+				INFOPLIST_FILE = "Clue CeeperTests/Clue CeeperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4CBB60641525389700D52A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clue Ceeper.app/Clue Ceeper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clue Ceeper/Clue Ceeper-Prefix.pch";
+				INFOPLIST_FILE = "Clue CeeperTests/Clue CeeperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBB60231525389600D52A58 /* Build configuration list for PBXProject "Clue Ceeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBB605D1525389700D52A58 /* Debug */,
+				4CBB605E1525389700D52A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBB605F1525389700D52A58 /* Build configuration list for PBXNativeTarget "Clue Ceeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBB60601525389700D52A58 /* Debug */,
+				4CBB60611525389700D52A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CBB60621525389700D52A58 /* Build configuration list for PBXNativeTarget "Clue CeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBB60631525389700D52A58 /* Debug */,
+				4CBB60641525389700D52A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBB60201525389600D52A58 /* Project object */;
+}
