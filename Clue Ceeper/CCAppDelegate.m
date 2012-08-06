@@ -3,7 +3,7 @@
 //  Clue Ceeper
 //
 //  Created by Dana Smith on 3/29/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 __AppSmith__. All rights reserved.
 //
 
 #import "CCAppDelegate.h"
@@ -17,15 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    self.viewController = [[CCViewController alloc] initWithNibName:@"CCViewController_iPhone" bundle:nil];
-	} else {
-	    self.viewController = [[CCViewController alloc] initWithNibName:@"CCViewController_iPad" bundle:nil];
-	}
-	self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+//	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+//	    self.viewController = [[CCViewController alloc] initWithNibName:@"CCViewController_iPhone" bundle:nil];
+//	} else {
+//	    self.viewController = [[CCViewController alloc] initWithNibName:@"CCViewController_iPad" bundle:nil];
+//	}
+//	self.window.rootViewController = self.viewController;
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 

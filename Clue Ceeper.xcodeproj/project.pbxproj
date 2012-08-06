@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C83074115CF661600253EB7 /* CCMainViewController_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C83074015CF661600253EB7 /* CCMainViewController_iPad.storyboard */; };
+		4C83074515CF67C300253EB7 /* CCStartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C83074415CF67C300253EB7 /* CCStartGameViewController.m */; };
 		4CBB602E1525389600D52A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB602D1525389600D52A58 /* UIKit.framework */; };
 		4CBB60301525389600D52A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB602F1525389600D52A58 /* Foundation.framework */; };
 		4CBB60321525389600D52A58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB60311525389600D52A58 /* CoreGraphics.framework */; };
@@ -14,13 +16,15 @@
 		4CBB603A1525389700D52A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB60391525389700D52A58 /* main.m */; };
 		4CBB603E1525389700D52A58 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB603D1525389700D52A58 /* CCAppDelegate.m */; };
 		4CBB60411525389700D52A58 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB60401525389700D52A58 /* CCViewController.m */; };
-		4CBB60441525389700D52A58 /* CCViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB60421525389700D52A58 /* CCViewController_iPhone.xib */; };
-		4CBB60471525389700D52A58 /* CCViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB60451525389700D52A58 /* CCViewController_iPad.xib */; };
 		4CBB604F1525389700D52A58 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB604E1525389700D52A58 /* SenTestingKit.framework */; };
 		4CBB60501525389700D52A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB602D1525389600D52A58 /* UIKit.framework */; };
 		4CBB60511525389700D52A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBB602F1525389600D52A58 /* Foundation.framework */; };
 		4CBB60591525389700D52A58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB60571525389700D52A58 /* InfoPlist.strings */; };
 		4CBB605C1525389700D52A58 /* Clue_CeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB605B1525389700D52A58 /* Clue_CeeperTests.m */; };
+		4CBB606615253D2700D52A58 /* clue sheet clean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB606515253D2700D52A58 /* clue sheet clean.jpg */; };
+		4CBB61CF1526865C00D52A58 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB61CE1526865C00D52A58 /* X.png */; };
+		4CBFE08C152E8492005578A8 /* SuspicionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFE08A152E8492005578A8 /* SuspicionViewController.m */; };
+		4CBFE08D152E8492005578A8 /* SuspicionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBFE08B152E8492005578A8 /* SuspicionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +38,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C83074015CF661600253EB7 /* CCMainViewController_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CCMainViewController_iPad.storyboard; sourceTree = "<group>"; };
+		4C83074315CF67C300253EB7 /* CCStartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStartGameViewController.h; sourceTree = "<group>"; };
+		4C83074415CF67C300253EB7 /* CCStartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCStartGameViewController.m; sourceTree = "<group>"; };
 		4CBB60291525389600D52A58 /* Clue Ceeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clue Ceeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBB602D1525389600D52A58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CBB602F1525389600D52A58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CBB60311525389600D52A58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4CBB60351525389700D52A58 /* Clue Ceeper-Info.plist */ = {isa = PBXFileReference; path = "Clue Ceeper-Info.plist"; sourceTree = "<group>"; };
+		4CBB60351525389700D52A58 /* Clue Ceeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clue Ceeper-Info.plist"; sourceTree = "<group>"; };
 		4CBB60371525389700D52A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CBB60391525389700D52A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CBB603B1525389700D52A58 /* Clue Ceeper-Prefix.pch */ = {isa = PBXFileReference; path = "Clue Ceeper-Prefix.pch"; sourceTree = "<group>"; };
-		4CBB603C1525389700D52A58 /* CCAppDelegate.h */ = {isa = PBXFileReference; path = CCAppDelegate.h; sourceTree = "<group>"; };
+		4CBB603B1525389700D52A58 /* Clue Ceeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clue Ceeper-Prefix.pch"; sourceTree = "<group>"; };
+		4CBB603C1525389700D52A58 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		4CBB603D1525389700D52A58 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
-		4CBB603F1525389700D52A58 /* CCViewController.h */ = {isa = PBXFileReference; path = CCViewController.h; sourceTree = "<group>"; };
+		4CBB603F1525389700D52A58 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
 		4CBB60401525389700D52A58 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
-		4CBB60431525389700D52A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController_iPhone.xib; sourceTree = "<group>"; };
-		4CBB60461525389700D52A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCViewController_iPad.xib; sourceTree = "<group>"; };
 		4CBB604D1525389700D52A58 /* Clue CeeperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clue CeeperTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBB604E1525389700D52A58 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4CBB60561525389700D52A58 /* Clue CeeperTests-Info.plist */ = {isa = PBXFileReference; path = "Clue CeeperTests-Info.plist"; sourceTree = "<group>"; };
+		4CBB60561525389700D52A58 /* Clue CeeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clue CeeperTests-Info.plist"; sourceTree = "<group>"; };
 		4CBB60581525389700D52A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4CBB605A1525389700D52A58 /* Clue_CeeperTests.h */ = {isa = PBXFileReference; path = Clue_CeeperTests.h; sourceTree = "<group>"; };
+		4CBB605A1525389700D52A58 /* Clue_CeeperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clue_CeeperTests.h; sourceTree = "<group>"; };
 		4CBB605B1525389700D52A58 /* Clue_CeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clue_CeeperTests.m; sourceTree = "<group>"; };
+		4CBB606515253D2700D52A58 /* clue sheet clean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clue sheet clean.jpg"; sourceTree = "<group>"; };
+		4CBB61CE1526865C00D52A58 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		4CBFE089152E8492005578A8 /* SuspicionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspicionViewController.h; sourceTree = "<group>"; };
+		4CBFE08A152E8492005578A8 /* SuspicionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspicionViewController.m; sourceTree = "<group>"; };
+		4CBFE08B152E8492005578A8 /* SuspicionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuspicionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +127,13 @@
 				4CBB603D1525389700D52A58 /* CCAppDelegate.m */,
 				4CBB603F1525389700D52A58 /* CCViewController.h */,
 				4CBB60401525389700D52A58 /* CCViewController.m */,
-				4CBB60421525389700D52A58 /* CCViewController_iPhone.xib */,
-				4CBB60451525389700D52A58 /* CCViewController_iPad.xib */,
+				4C83074015CF661600253EB7 /* CCMainViewController_iPad.storyboard */,
+				4C83074315CF67C300253EB7 /* CCStartGameViewController.h */,
+				4C83074415CF67C300253EB7 /* CCStartGameViewController.m */,
 				4CBB60341525389700D52A58 /* Supporting Files */,
+				4CBFE089152E8492005578A8 /* SuspicionViewController.h */,
+				4CBFE08A152E8492005578A8 /* SuspicionViewController.m */,
+				4CBFE08B152E8492005578A8 /* SuspicionViewController.xib */,
 			);
 			path = "Clue Ceeper";
 			sourceTree = "<group>";
@@ -127,6 +141,8 @@
 		4CBB60341525389700D52A58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CBB61CE1526865C00D52A58 /* X.png */,
+				4CBB606515253D2700D52A58 /* clue sheet clean.jpg */,
 				4CBB60351525389700D52A58 /* Clue Ceeper-Info.plist */,
 				4CBB60361525389700D52A58 /* InfoPlist.strings */,
 				4CBB60391525389700D52A58 /* main.m */,
@@ -199,7 +215,7 @@
 		4CBB60201525389600D52A58 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 4CBB60231525389600D52A58 /* Build configuration list for PBXProject "Clue Ceeper" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -225,8 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CBB60381525389700D52A58 /* InfoPlist.strings in Resources */,
-				4CBB60441525389700D52A58 /* CCViewController_iPhone.xib in Resources */,
-				4CBB60471525389700D52A58 /* CCViewController_iPad.xib in Resources */,
+				4CBB606615253D2700D52A58 /* clue sheet clean.jpg in Resources */,
+				4CBB61CF1526865C00D52A58 /* X.png in Resources */,
+				4CBFE08D152E8492005578A8 /* SuspicionViewController.xib in Resources */,
+				4C83074115CF661600253EB7 /* CCMainViewController_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +282,8 @@
 				4CBB603A1525389700D52A58 /* main.m in Sources */,
 				4CBB603E1525389700D52A58 /* CCAppDelegate.m in Sources */,
 				4CBB60411525389700D52A58 /* CCViewController.m in Sources */,
+				4CBFE08C152E8492005578A8 /* SuspicionViewController.m in Sources */,
+				4C83074515CF67C300253EB7 /* CCStartGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,22 +312,6 @@
 				4CBB60371525389700D52A58 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4CBB60421525389700D52A58 /* CCViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CBB60431525389700D52A58 /* en */,
-			);
-			name = CCViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		4CBB60451525389700D52A58 /* CCViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CBB60461525389700D52A58 /* en */,
-			);
-			name = CCViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		4CBB60571525389700D52A58 /* InfoPlist.strings */ = {
@@ -443,6 +447,7 @@
 				4CBB60611525389700D52A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CBB60621525389700D52A58 /* Build configuration list for PBXNativeTarget "Clue CeeperTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +456,7 @@
 				4CBB60641525389700D52A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
