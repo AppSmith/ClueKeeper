@@ -18,7 +18,7 @@
 
 @implementation SuspicionViewController
 
-@synthesize murderContext = _murderContext;
+@synthesize gameContext = _gameContext;
 @synthesize suspects = _suspects;
 @synthesize weapons = _weapons;
 @synthesize rooms = _rooms;
@@ -56,15 +56,15 @@
 
 - (NSArray *)suspects
 {
-	return [_suspects arrayByAddingObjectsFromArray:[self.murderContext valueForKey:@"suspects"]];
+	return [_suspects arrayByAddingObjectsFromArray:[self.gameContext valueForKey:@"suspects"]];
 }
 - (NSArray *)weapons
 {
-	return [_weapons arrayByAddingObjectsFromArray:[self.murderContext valueForKey:@"weapons"]];
+	return [_weapons arrayByAddingObjectsFromArray:[self.gameContext valueForKey:@"weapons"]];
 }
 - (NSArray *)rooms
 {
-	return [_rooms arrayByAddingObjectsFromArray:[self.murderContext valueForKey:@"rooms"]];
+	return [_rooms arrayByAddingObjectsFromArray:[self.gameContext valueForKey:@"rooms"]];
 }
 
 

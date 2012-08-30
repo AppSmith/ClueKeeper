@@ -18,20 +18,14 @@ const CGSize kButtonSize = { 23, 25 };
 
 @interface CCViewController ()
 
-@property (strong, nonatomic) NSDictionary *murderContext;
-@property (strong, nonatomic) NSArray *suspects;
-@property (strong, nonatomic) NSArray *weapons;
-@property (strong, nonatomic) NSArray *rooms;
+
 
 @end
 
 @implementation CCViewController
 
 @synthesize SheetScrollView;
-@synthesize suspects = _suspects;
-@synthesize weapons = _weapons;
-@synthesize rooms = _rooms;
-@synthesize murderContext = _murderContext;
+@synthesize gameContext = _gameContext;
 
 - (void)didReceiveMemoryWarning
 {
@@ -42,19 +36,6 @@ const CGSize kButtonSize = { 23, 25 };
 #pragma mark - View lifecycle
 
 
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-	self = [super initWithCoder:aDecoder];
-	if (nil != self) 
-	{
-		_suspects = [NSArray arrayWithObjects:@"Col. Mustard", @"Professor Plum", @"Mr. Green", @"Mrs. Peacock", @"Miss Scarlet", @"Mrs. White", nil];
-		_weapons = [NSArray arrayWithObjects:@"Knife", @"Candlestick", @"Revolver", @"Rope", @"Lead Pipe", @"Wrench", nil];
-		_rooms = [NSArray arrayWithObjects:@"Hall", @"Lounge", @"Dining Room", @"Kitchen", @"Ball Room", @"Conservatory", @"Billiard Room", @"Library", @"Study", nil];
-		_murderContext = [NSDictionary dictionaryWithObjectsAndKeys:_suspects, @"suspects", _weapons, @"weapons", _rooms, @"rooms", nil];
-	}
-	
-	return self;
-}
 
 - (void)viewDidLoad
 {
@@ -64,9 +45,13 @@ const CGSize kButtonSize = { 23, 25 };
 	
 	SheetScrollView.contentSize = CGSizeMake(320, 1100);
 
+	NSArray *suspects = [self.gameContext valueForKey:@"suspects"];
+	NSArray *weapons = [self.gameContext valueForKey:@"weapons"];
+	NSArray *rooms = [self.gameContext valueForKey:@"rooms"];
+	
 	// Set up the Room buttons.
 	CGRect currentButtonFrame = CGRectMake(kRoomBlockOrigin.x, kRoomBlockOrigin.y, kButtonSize.width, kButtonSize.height);
-	for (NSUInteger roomNumber = 0; roomNumber < self.rooms.count; roomNumber++)
+	for (NSUInteger roomNumber = 0; roomNumber < rooms.count; roomNumber++)
 	{
 		for (NSUInteger boxNumber = 0; boxNumber < kNumberOfPlayers; boxNumber++)
 		{
@@ -87,7 +72,7 @@ const CGSize kButtonSize = { 23, 25 };
 	
 	// Set up the Weapon buttons.
 	currentButtonFrame = CGRectMake(kWeaponBlockOrigin.x, kWeaponBlockOrigin.y, kButtonSize.width, kButtonSize.height);
-	for (NSUInteger weaponNumber = 0; weaponNumber < self.weapons.count; weaponNumber++)
+	for (NSUInteger weaponNumber = 0; weaponNumber < weapons.count; weaponNumber++)
 	{
 		for (NSUInteger boxNumber = 0; boxNumber < kNumberOfPlayers; boxNumber++)
 		{
@@ -108,7 +93,7 @@ const CGSize kButtonSize = { 23, 25 };
 	
 	// Set up the Suspect buttons.
 	currentButtonFrame = CGRectMake(kSuspectBlockOrigin.x, kSuspectBlockOrigin.y, kButtonSize.width, kButtonSize.height);
-	for (NSUInteger suspectNumber = 0; suspectNumber < self.suspects.count; suspectNumber++)
+	for (NSUInteger suspectNumber = 0; suspectNumber < suspects.count; suspectNumber++)
 	{
 		for (NSUInteger boxNumber = 0; boxNumber < kNumberOfPlayers; boxNumber++)
 		{
@@ -173,7 +158,7 @@ const CGSize kButtonSize = { 23, 25 };
 	if ([segue.identifier isEqualToString:@"SegueToTurn"])
 	{
 		SuspicionViewController *viewController = segue.destinationViewController;
-		viewController.murderContext = self.murderContext;
+		viewController.gameContext = self.gameContext;
 	}
 }
 

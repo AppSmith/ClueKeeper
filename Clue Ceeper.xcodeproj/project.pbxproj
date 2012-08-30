@@ -24,7 +24,6 @@
 		4CBB606615253D2700D52A58 /* clue sheet clean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB606515253D2700D52A58 /* clue sheet clean.jpg */; };
 		4CBB61CF1526865C00D52A58 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB61CE1526865C00D52A58 /* X.png */; };
 		4CBFE08C152E8492005578A8 /* SuspicionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFE08A152E8492005578A8 /* SuspicionViewController.m */; };
-		4CBFE08D152E8492005578A8 /* SuspicionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBFE08B152E8492005578A8 /* SuspicionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 		4CBB61CE1526865C00D52A58 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
 		4CBFE089152E8492005578A8 /* SuspicionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspicionViewController.h; sourceTree = "<group>"; };
 		4CBFE08A152E8492005578A8 /* SuspicionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspicionViewController.m; sourceTree = "<group>"; };
-		4CBFE08B152E8492005578A8 /* SuspicionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuspicionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,15 +123,14 @@
 			children = (
 				4CBB603C1525389700D52A58 /* CCAppDelegate.h */,
 				4CBB603D1525389700D52A58 /* CCAppDelegate.m */,
-				4CBB603F1525389700D52A58 /* CCViewController.h */,
-				4CBB60401525389700D52A58 /* CCViewController.m */,
 				4C83074015CF661600253EB7 /* CCMainViewController_iPad.storyboard */,
 				4C83074315CF67C300253EB7 /* CCStartGameViewController.h */,
 				4C83074415CF67C300253EB7 /* CCStartGameViewController.m */,
-				4CBB60341525389700D52A58 /* Supporting Files */,
+				4CBB603F1525389700D52A58 /* CCViewController.h */,
+				4CBB60401525389700D52A58 /* CCViewController.m */,
 				4CBFE089152E8492005578A8 /* SuspicionViewController.h */,
 				4CBFE08A152E8492005578A8 /* SuspicionViewController.m */,
-				4CBFE08B152E8492005578A8 /* SuspicionViewController.xib */,
+				4CBB60341525389700D52A58 /* Supporting Files */,
 			);
 			path = "Clue Ceeper";
 			sourceTree = "<group>";
@@ -243,7 +240,6 @@
 				4CBB60381525389700D52A58 /* InfoPlist.strings in Resources */,
 				4CBB606615253D2700D52A58 /* clue sheet clean.jpg in Resources */,
 				4CBB61CF1526865C00D52A58 /* X.png in Resources */,
-				4CBFE08D152E8492005578A8 /* SuspicionViewController.xib in Resources */,
 				4C83074115CF661600253EB7 /* CCMainViewController_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

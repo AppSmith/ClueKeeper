@@ -10,6 +10,6 @@
 
 @interface SuspicionViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
 
-@property (nonatomic, strong) NSDictionary *murderContext;
+@property (nonatomic, strong) NSDictionary *gameContext;
 
 @end

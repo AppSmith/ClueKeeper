@@ -11,5 +11,6 @@
 @interface CCViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIScrollView *SheetScrollView;
+@property (strong, nonatomic) NSDictionary *gameContext;
 
 @end
