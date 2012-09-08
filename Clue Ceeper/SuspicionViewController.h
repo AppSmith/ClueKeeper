@@ -11,5 +11,8 @@
 @interface SuspicionViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
 
 @property (nonatomic, strong) NSDictionary *gameContext;
+@property (strong, nonatomic) IBOutlet UIPickerView *namePicker;
+@property (strong, nonatomic) IBOutlet UILabel *suspicionText;
+@property (strong, nonatomic) IBOutlet UILabel *showText;
 
 @end

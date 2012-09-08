@@ -99,12 +99,19 @@ const NSUInteger kTextBoxEnd = 605;
 		if (segment.selectedSegmentIndex == 0 || segment.selectedSegmentIndex == segment.numberOfSegments - 1)
 		{
 			UITextField *textbox = (UITextField *)[self.view viewWithTag:kTextBoxStart + index];
-
-			[playerList addObject:textbox.text];
+			
+			if (textbox.text != nil)
+			{
+				[playerList addObject:textbox.text];
+			}
+			else
+			{
+				[playerList addObject:[NSString stringWithFormat:@"Player %i", index + 1]];
+			}
 		}
 	}
 	
-	[self.gameContext setObject:playerList forKey:@"playerList"];
+	[self.gameContext setObject:playerList forKey:@"players"];
 	[self.gameContext setObject:[NSNumber numberWithInt:self.meTag - kSegmentControlsStart] forKey:@"meIndex"];
 	next.gameContext = self.gameContext;
 }
